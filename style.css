@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+#main{
+    background-image: url("https://plus.unsplash.com/premium_photo-1746601854899-359015635d11?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 100%;
+
+}
+#main #card{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(227, 208, 171);
+    width: 375px;
+    height: 500px;
+    opacity: 100%;
+    border-radius:50px ;
+}
+
+#card #circle{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url("https://i.pinimg.com/736x/df/41/d7/df41d7e003e57057519be6477536c813.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+#card button{
+    background-color: rgba(165, 160, 163, 0.441);
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 60;
+    margin-top: 100px;
+    margin-left: 35%;
+}
+#card p{
+    color: rgb(0, 0, 0);
+}
+#card h1{
+    color:rgb(5, 107, 107) ;
+}
